@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587699480133",
+    "project_id": "yookataleable",
+    "storage_bucket": "yookataleable.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587699480133:android:64c37ce63e786d8a5b252c",
+        "android_client_info": {
+          "package_name": "com.example.yookatale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587699480133-5t07f91j33n9u1ltqt1vcj1aqtd4hcsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBavkjo-K4RhPwS8T9xe0Clb0KeivMxmWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587699480133-5t07f91j33n9u1ltqt1vcj1aqtd4hcsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

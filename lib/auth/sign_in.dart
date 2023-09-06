@@ -2,7 +2,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:yookatale/screens/dashboard/dashboard.dart';
+import 'package:yookatale/screens/user/admin.dart';
+
 import '../main.dart';
+import '../screens/popular product/popular products/popular_products.dart';
+import '../screens/popular product/upload/product_upload.dart';
+
 import '../screens/product_list.dart';
 import 'forgot_password.dart';
 import 'sign_up.dart';
@@ -293,7 +299,7 @@ class _SignInState extends State<SignIn> {
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-              builder: (context) => ProductListScreen(),
+              builder: (context) => Dashboard(),
             ),
           );
         }
@@ -302,14 +308,14 @@ class _SignInState extends State<SignIn> {
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-              builder: (context) => ImageUploadScreen(),
+              builder: (context) => Admin(),
             ),
           );
         } else {
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-              builder: (context) => ProductListScreen(),
+              builder: (context) => Dashboard(),
             ),
           );
         }
